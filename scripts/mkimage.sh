@@ -20,7 +20,7 @@ fi
 
 systemdir=$1
 outputtype=$2
-syssize=$3
+syssize=4194304000
 output=$4
 
 LOCALDIR=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`

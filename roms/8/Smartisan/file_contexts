@@ -1,1 +1,4 @@
 /bin u:object_r:rootfs:s0
+/metadata u:object_r:rootfs:s0
+/product u:object_r:rootfs:s0
+

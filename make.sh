@@ -99,11 +99,12 @@ if [[ ! "$istreble" == "true" ]]; then
 fi
 
 # Detect Source API level
-sourcever=`cat $systemdir/system/build.prop | grep ro.build.version.release | cut -d "=" -f 2`
+sourcever=`cat $systemdir/system/build.prop | grep ro.build.version.release | cut -c 26-26`
 flag=false
 case "$sourcever" in
     *"9"*) flag=true ;;
     *"10"*) flag=true ;;
+    *"8"*) flag=true ;;
 esac
 if [ "$flag" == "false" ]; then
     echo "$sourcever is not supported"

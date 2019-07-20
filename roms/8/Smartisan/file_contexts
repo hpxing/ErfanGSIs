@@ -1,4 +1,15 @@
 /bin u:object_r:rootfs:s0
 /metadata u:object_r:rootfs:s0
 /product u:object_r:rootfs:s0
-
+#/acct u:object_r:rootfs:s0
+#/bugreports u:object_r:rootfs:s0
+/cache u:object_r:rootfs:s0
+#/charger u:object_r:rootfs:s0
+#/config u:object_r:rootfs:s0
+#/d u:object_r:rootfs:s0
+/data u:object_r:rootfs:s0
+/default.prop u:object_r:rootfs:s0
+/dev u:object_r:rootfs:s0
+#/etc u:object_r:rootfs:s0
+/klogdump u:object_r:rootfs:s0
+/ramdump u:object_r:rootfs:s0
